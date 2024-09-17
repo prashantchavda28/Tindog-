@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+/* h2{
+    font-family: "montserrat-black";
+    line-height: 1.5;
+    font-size: 3rem;
+} */
+
+.flexbox{
+    gap: 5px;
+}
+
+.rotate{
+    transform: rotate(15deg);
+    padding-top: 10px;
+}
+
+/* .container-fluid{
+    padding: 3% 15% 7%;
+} */
+
+/* navbar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem ;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Download-button */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 19%;
+    margin-left: 5rem;
+    position: absolute;
+    right: 20%;
+}
+
+/* feature section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+/* h3{
+    font-family: "montserrat-bold";
+    font-weight: bolder;
+} */
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #f07868;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testmonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15% ;       
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-colums{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 50px 100px 25px 100px;
+}
+
+.down-btn{
+    margin: 5% 3% 5% 0;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    margin: 20px 100px 0px 100px;
+}
+
+.flex-box {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 990px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
